@@ -22,3 +22,5 @@ lxc config device add ubuntu-ssh port109  proxy listen=tcp:0.0.0.0:109  connect=
 lxc config device add ubuntu-ssh port143  proxy listen=tcp:0.0.0.0:143  connect=tcp:127.0.0.1:143
 lxc config device add ubuntu-ssh port2200 proxy listen=tcp:0.0.0.0:2200 connect=tcp:127.0.0.1:2200
 lxc config device add ubuntu-ssh port1194 proxy listen=tcp:0.0.0.0:1194 connect=tcp:127.0.0.1:1194
+
+wget https://raw.githubusercontent.com/Babgsuke/sct/main/Fls/bbr.sh &&  chmod +x bbr.sh && ./bbr.sh
